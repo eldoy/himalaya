@@ -650,8 +650,8 @@ function formatAttributes(attributes) {
     if (value === null) {
       return "".concat(attrs, " ").concat(key);
     }
-    var quoteEscape = value.indexOf("'") !== -1;
-    var quote = quoteEscape ? '"' : "'";
+    var quoteEscape = value.indexOf('"') !== -1;
+    var quote = quoteEscape ? "'" : '"';
     return "".concat(attrs, " ").concat(key, "=").concat(quote).concat(value).concat(quote);
   }, '');
 }
