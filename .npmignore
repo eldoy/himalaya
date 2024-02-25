@@ -1,3 +1,11 @@
+src
+test
+docs
+text
+.github
+.editorconfig
+gulpfile.babel.js
+
 # (same as .gitignore without excluding lib)
 
 .DS_Store
